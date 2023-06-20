@@ -19,8 +19,8 @@ You can use docker to build this project using provided Dockerfile.
 ## Security
 
 Added an API Key and Secret basic security.
-For testing, use the default values.
-Api Key: "20bd419b-45a9-49c9-ac49-cd437b0ac2bf"
-Secret: "NBJ&sPwYfNNU49ChPxEp&e*Yj3rMArdMY(+4zV+%$pDey4y%ELsp+&k&Pa#wmEG^"
+For testing, use the default values.<br/><br/>
+Api Key: "20bd419b-45a9-49c9-ac49-cd437b0ac2bf"<br/>
+Secret: "NBJ&sPwYfNNU49ChPxEp&e*Yj3rMArdMY(+4zV<br/>+%$pDey4y%ELsp+&k&Pa#wmEG^"<br/>
 
 These values allready are in the provided Postman collection.
