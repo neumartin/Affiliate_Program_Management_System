@@ -1,0 +1,387 @@
+{
+	"info": {
+		"_postman_id": "445adc62-43c9-4e42-85e7-f0ce5ea17a0c",
+		"name": "APMS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2373868"
+	},
+	"item": [
+		{
+			"name": "Affiliates GET",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "api-key",
+						"value": "20bd419b-45a9-49c9-ac49-cd437b0ac2bf",
+						"type": "text"
+					},
+					{
+						"key": "secret",
+						"value": "NBJ&sPwYfNNU49ChPxEp&e*Yj3rMArdMY(+4zV+%$pDey4y%ELsp+&k&Pa#wmEG^",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/Affiliate/1",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"Affiliate",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Affiliates Customers Count",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "api-key",
+						"value": "20bd419b-45a9-49c9-ac49-cd437b0ac2bf",
+						"type": "text"
+					},
+					{
+						"key": "secret",
+						"value": "NBJ&sPwYfNNU49ChPxEp&e*Yj3rMArdMY(+4zV+%$pDey4y%ELsp+&k&Pa#wmEG^",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/Affiliate/customersCount/2",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"Affiliate",
+						"customersCount",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Affiliates GET ALL",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "api-key",
+						"value": "20bd419b-45a9-49c9-ac49-cd437b0ac2bf",
+						"type": "text"
+					},
+					{
+						"key": "secret",
+						"value": "NBJ&sPwYfNNU49ChPxEp&e*Yj3rMArdMY(+4zV+%$pDey4y%ELsp+&k&Pa#wmEG^",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/Affiliate/getAll",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"Affiliate",
+						"getAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Affiliates DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "api-key",
+						"value": "20bd419b-45a9-49c9-ac49-cd437b0ac2bf",
+						"type": "text"
+					},
+					{
+						"key": "secret",
+						"value": "NBJ&sPwYfNNU49ChPxEp&e*Yj3rMArdMY(+4zV+%$pDey4y%ELsp+&k&Pa#wmEG^",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/Affiliate/1",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"Affiliate",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Customer DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "api-key",
+						"value": "20bd419b-45a9-49c9-ac49-cd437b0ac2bf",
+						"type": "text"
+					},
+					{
+						"key": "secret",
+						"value": "NBJ&sPwYfNNU49ChPxEp&e*Yj3rMArdMY(+4zV+%$pDey4y%ELsp+&k&Pa#wmEG^",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/Customer/6",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"Customer",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Affiliates POST",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "api-key",
+						"value": "20bd419b-45a9-49c9-ac49-cd437b0ac2bf",
+						"type": "text"
+					},
+					{
+						"key": "secret",
+						"value": "NBJ&sPwYfNNU49ChPxEp&e*Yj3rMArdMY(+4zV+%$pDey4y%ELsp+&k&Pa#wmEG^",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Test 1\",\n  \"phone\": \"3333333\",\n  \"address\": \"817 NW Street\",\n  \"zipCode\": \"33002\",\n  \"contactName\": \"Peter\",\n  \"description\": \"One description here\"\n}"
+				},
+				"url": {
+					"raw": "{{host}}/Affiliate",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"Affiliate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Customer POST",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "api-key",
+						"value": "20bd419b-45a9-49c9-ac49-cd437b0ac2bf",
+						"type": "text"
+					},
+					{
+						"key": "secret",
+						"value": "NBJ&sPwYfNNU49ChPxEp&e*Yj3rMArdMY(+4zV+%$pDey4y%ELsp+&k&Pa#wmEG^",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"idAffiliate\": 2,\n  \"name\": \"Customer 7\",\n  \"phone\": \"5555555\",\n  \"address\": \"887 NE Street\",\n  \"zipCode\": \"44332\",\n  \"contactName\": \"Steve\",\n  \"description\": \"\"\n}"
+				},
+				"url": {
+					"raw": "{{host}}/Customer",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"Customer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Customer GET",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "api-key",
+						"value": "20bd419b-45a9-49c9-ac49-cd437b0ac2bf",
+						"type": "text"
+					},
+					{
+						"key": "secret",
+						"value": "NBJ&sPwYfNNU49ChPxEp&e*Yj3rMArdMY(+4zV+%$pDey4y%ELsp+&k&Pa#wmEG^",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{host}}/Customer/1",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"Customer",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Customer GET BY AFFILIATE",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "api-key",
+						"value": "20bd419b-45a9-49c9-ac49-cd437b0ac2bf",
+						"type": "text"
+					},
+					{
+						"key": "secret",
+						"value": "NBJ&sPwYfNNU49ChPxEp&e*Yj3rMArdMY(+4zV+%$pDey4y%ELsp+&k&Pa#wmEG^",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{host}}/customer/getAllByAffiliate/2",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"customer",
+						"getAllByAffiliate",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Affiliates PUT",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "api-key",
+						"value": "20bd419b-45a9-49c9-ac49-cd437b0ac2bf",
+						"type": "text"
+					},
+					{
+						"key": "secret",
+						"value": "NBJ&sPwYfNNU49ChPxEp&e*Yj3rMArdMY(+4zV+%$pDey4y%ELsp+&k&Pa#wmEG^",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " {\n        \"id\": 2,\n        \"name\": \"Test 22222\",\n        \"phone\": \"3333333\",\n        \"address\": \"817 NW Street\",\n        \"zipCode\": \"33002\",\n        \"contactName\": \"Peter\",\n        \"description\": \"One description here\"\n    }"
+				},
+				"url": {
+					"raw": "{{host}}/Affiliate",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"Affiliate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Customer PUT",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "api-key",
+						"value": "20bd419b-45a9-49c9-ac49-cd437b0ac2bf",
+						"type": "text"
+					},
+					{
+						"key": "secret",
+						"value": "NBJ&sPwYfNNU49ChPxEp&e*Yj3rMArdMY(+4zV+%$pDey4y%ELsp+&k&Pa#wmEG^",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1,\n    \"idAffiliate\": 2,\n    \"name\": \"Customer 1111\",\n    \"phone\": \"5555555\",\n    \"address\": \"887 NE Street\",\n    \"zipCode\": \"44332\",\n    \"contactName\": \"Steve\",\n    \"description\": \"\"\n}"
+				},
+				"url": {
+					"raw": "{{host}}/Customer",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"Customer"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

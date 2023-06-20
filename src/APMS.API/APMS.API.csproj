@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mapster" Version="7.3.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\APMS.DataAccess\APMS.DataAccess.csproj" />
+    <ProjectReference Include="..\APMS.Domain\APMS.Domain.csproj" />
+    <ProjectReference Include="..\APMS.DTO\APMS.DTO.csproj" />
+    <ProjectReference Include="..\APMS.Managers\APMS.Managers.csproj" />
+  </ItemGroup>
+
+</Project>
